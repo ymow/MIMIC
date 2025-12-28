@@ -1,0 +1,69 @@
+MIT License
+
+Copyright (c) 2024 M1 Singing Voice Conversion Project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+
+Additional Notice for Research and Academic Use:
+
+This software implements research-grade algorithms for singing voice conversion
+optimized for Apple Silicon hardware. If you use this software in academic
+research, please consider citing relevant works:
+
+1. RMVPE Algorithm: For robust pitch estimation in singing applications
+2. BS-Roformer: For advanced audio source separation
+3. Mel-Band Roformer: For audio dereverberation and enhancement
+
+================================================================================
+
+Third-Party Dependencies:
+
+This software uses several third-party libraries and models:
+
+- PyTorch: BSD-style license (https://github.com/pytorch/pytorch/blob/master/LICENSE)
+- LibROSA: ISC License (https://github.com/librosa/librosa/blob/main/LICENSE.md)
+- Audio-separator: MIT License (https://github.com/karaokenerds/python-audio-separator)
+- Faiss: MIT License (https://github.com/facebookresearch/faiss/blob/main/LICENSE)
+
+Pre-trained models used:
+- BS-Roformer: As per model repository terms
+- Mel-Band Roformer: As per model repository terms
+
+Please ensure compliance with all applicable licenses when using this software.
+
+================================================================================
+
+Apple Silicon Optimization Notice:
+
+This software is specifically optimized for Apple Silicon (M1/M2/M3) hardware
+and utilizes Apple's Metal Performance Shaders (MPS) framework. The optimizations
+are designed to work within Apple's unified memory architecture constraints.
+
+================================================================================
+
+Disclaimer:
+
+This software is designed for legitimate research, educational, and creative
+purposes. Users are responsible for ensuring appropriate use and compliance
+with all applicable laws and regulations regarding voice conversion and
+synthesis technologies.
+
+================================================================================
